@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+	<script src="https://kit.fontawesome.com/a6015fd7af.js" crossorigin="anonymous"></script>
+    <title>My website</title>
+	<style type=text/css>
+	
+	body{
+			background-color:#343A40;
+			}
+	.jumbotron{
+				background-color:#343A40;
+				color:white;
+				text-align:center;
+				font-family:Jazz LET, fantasy;
+				font-size:150%;
+				}
+				
+	.icon{
+			color:white;
+			margin-right:20px;
+			}
+	.home{
+			color:white;
+			border:1px solid #343A40;
+			width:130px;
+			float:left;
+			}
+	#image{
+			width:10%;
+			height:10%;
+			float:right;
+			position:relative;
+			top:-110px;
+			left:-300px;
+			border:2px solid white;
+			border-radius:10%;
+			
+			}
+			
+	.highlighted{
+					background-color:yellow;
+					text-decoration:none;
+					color:white;
+					}
+	
+	</style>
+   </head>
+  
+	<body>
+		
+			<div class="pos-f-t">
+				<div class="collapse" id="navbarToggleExternalContent">
+				<div class="bg-dark p-4">
+				  <h4 class="text-white"><a class="home" href="index.html">Home</a></h4>
+				  <br><h4 class="text-white"><a class="home" href="aboutme.html">About Me</a></h4>
+				  <br><h4 class="text-white"><a class="home" href="resume.html">Resume</a></h4>
+				  <br><h4 class="text-white"><a class="home" href="work.html">My Work</a></h4>
+				  <br><h4 class="text-white"><a class="home" href="contact.html">Contact Me</a></h4>
+				  <img id="image" src="IMG-20190930-WA0049.jpg">
+				</div>
+			  </div>
+			  <nav class="navbar navbar-dark bg-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#E2BE18; font-size:28px;"></i></span>
+				</button>	
+			  </nav>
+			</div>
+			 
+			
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container">
+					<h1 class="display-4">Vishal Singh</h1>
+					<p class="lead">2nd Year student, Information Technology Undergrade, Programmer, Gamer</p>
+					<p class="lead"><a class="icon" href="https://www.facebook.com/profile.php?id=100003280995495" target="_blank"><i class="fab fa-facebook"></a></i><a class="icon" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></a></i>
+					<a class="icon" href=""><i class="fab fa-linkedin"></a></i></p>
+				</div>
+			</div>
+			
+			
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			 $(".home").hover(function(){
+										$(this).addClass("highlighted");
+									},function(){
+													$(this).removeClass("highlighted");
+									
+									
+									});	
+				
+		</script>	
+	</body>
+</html>
